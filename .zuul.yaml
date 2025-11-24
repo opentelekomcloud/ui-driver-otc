@@ -5,9 +5,11 @@
       jobs:
         - js-build-ubuntu:
             vars:
+              node_version: 20
               js_build_command: "build -- --ui-version SNAPSHOT"
     gate:
       jobs:
         - js-build-ubuntu:
             vars:
+              node_version: 20
               js_build_command: "build -- --ui-version SNAPSHOT"
