@@ -1,6 +1,6 @@
 {
-  "name": "ui-driver-otc",
-  "version": "0.1.0",
+  "name": "@opentelekomcloud/ui-driver-otc",
+  "version": "1.0.3",
   "description": "OpenTelekomCloud Node Driver",
   "repository": {
     "type": "git",
@@ -11,6 +11,16 @@
   "bugs": {
     "url": "https://github.com/opentelekomcloud/ui-driver-otc/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/",
+    "component/",
+    "assets/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "./node_modules/.bin/gulp server",
     "clean": "./node_modules/.bin/gulp clean",
