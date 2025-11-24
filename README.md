@@ -1,7 +1,9 @@
-# ui-driver-skel
-Skeleton Rancher UI driver for custom docker-machine drivers
+# ui-driver-otc
+Rancher UI driver for custom docker-machine drivers (Node)
 
-**Note: The Master branch works with Rancher 2.x+, if you are building a custom driver for Rancher 1.x use the 1.x branch**
+**Note: The Master branch works with Rancher 2.x+ (till 2.11), if you are building a custom driver for Rancher 1.x use the 1.x branch**
+
+**Note**: Support for UI Plugins (based on Ember) for cluster and node drivers was deprecated in Rancher 2.11.0 and will be removed in a future release.
 
 ## Setup
 
